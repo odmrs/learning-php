@@ -63,3 +63,77 @@
 // print $b->name;
 
 // BOOLEANS
+
+// $show_name = TRUE;
+
+// if ($show_name) {
+//     echo 'Marcos' . PHP_EOL;
+// }
+
+// $unit = 91;
+
+// $is_over = $unit > 90;
+
+// if ($is_over) {
+//     echo 'Is' . PHP_EOL;
+// }
+
+// // Empty function
+
+// $var = '';
+
+// if (!empty($var)) {
+//     echo 'Have something inside';
+// }
+
+// Numeric Types
+
+// $octal = 0123;
+// echo $octal . PHP_EOL;
+
+// $hex = 0x1A;
+// echo $hex . PHP_EOL;
+
+// $notation = 4e23;
+// echo $notation . PHP_EOL;
+
+
+// Array
+
+// $cars = array('Palio', 'Corsa', 'Gol');
+
+// echo $cars[1] . PHP_EOL;
+
+// $car = new stdClass;
+
+// $car->model = 'Palio';
+// $car->year = 2002;
+// $car->color = 'Red';
+
+// // print_r($car);
+// // var_dump($car);
+
+// print $car->model . ' ';
+// print $car->color . ' ';
+// print $car->year . ' ';
+// print PHP_EOL;
+
+// function calculate_imc(float $weight, float $height)
+// {
+//     var_dump($weight, $height);
+//     return $weight / ($height * $height);
+// }
+
+// var_dump(calculate_imc('75.1', 2));
+
+// A error
+
+// var_dump(calculate_imc('75.1x', 2)); // Fatal error
+
+// function calculate_imc(float $weight, float $height): float
+// {
+//     var_dump($weight, $height);
+//     return $weight / ($height * $height);
+// }
+
+// var_dump(calculate_imc(75, 1.85));
