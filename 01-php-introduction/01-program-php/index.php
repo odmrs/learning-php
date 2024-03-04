@@ -137,3 +137,22 @@
 // }
 
 // var_dump(calculate_imc(75, 1.85));
+
+// Super variables
+
+// $_SERVER -> information about the server, about the browser and more.
+
+// var_dump($_SERVER);
+
+// $_GET -> A Vector with variables about request GET in the URL
+
+// echo 'Information in URL:' . '<br>';
+// var_dump($_GET);
+
+// $_POST -> The same about $_GET but with informations about send of data
+// $_FILES -> Informations about upload of files
+// $_COOKIE -> Informations about cookies 
+// $_SESSION -> Array with variables of current session
+// $_REQUEST -> Information about $_GET, $_POST and $_COOKIE
+
+// var_dump($_ENV); -> Informations about the where this script is running.
