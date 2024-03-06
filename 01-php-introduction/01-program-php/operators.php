@@ -57,8 +57,20 @@
 
 // foreach
 
-$fruits = ['Apple', 'Banana', 'Watermelon'];
+// $fruits = ['Apple', 'Banana', 'Watermelon'];
 
-foreach ($fruits as $fruit) {
-    echo $fruit . PHP_EOL;
+// foreach ($fruits as $fruit) {
+//     echo $fruit . PHP_EOL;
+// }
+
+class product
+{
+    private string $name;
+    private array $products;
+    public function add(string $name)
+    {
+        $this->name = $name;
+        $this->products = array();
+        $name = 'Marcos';
+    }
 }
