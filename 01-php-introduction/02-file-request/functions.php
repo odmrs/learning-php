@@ -112,3 +112,4 @@ function sum_all_numbers(): int
 }
 
 echo sum_all_numbers(5, 5, 5, 5, 5) . PHP_EOL;
+echo "Something blablabla $sum_all_numbers(5,5,5,5,5)" . PHP_EOL; 
