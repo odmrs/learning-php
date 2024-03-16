@@ -1,3 +1,4 @@
 <?php
 
 phpinfo();
+// void linux
